@@ -1,9 +1,0 @@
-sevices:
- web:
-  build: .
-  ports:
-    "5050:5050"
-   volumes:
-    .:/code
-  redis:
-    image: redis
