@@ -4,6 +4,6 @@ sevices:
   ports:
     "5050:5050"
    volumes:
-   - .:/code
+    .:/code
   redis:
     image: redis
